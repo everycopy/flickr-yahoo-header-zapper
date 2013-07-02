@@ -3,12 +3,10 @@
 Yahoo recently added a network wide header to Flickr. You probably don't like it. I don't like it either. So I burned it with righteous CSS fire!
 
 Before:
-
-<img src="https://raw.github.com/everycopy/flickr-yahoo-header-zapper/master/screenshot_with_header.png" alt="Screenshot with header">
+<img src="https://raw.github.com/everycopy/flickr-yahoo-header-zapper/master/screenshot_with_header.jpg" alt="Screenshot with header">
 
 After:
-
-<img src="https://raw.github.com/everycopy/flickr-yahoo-header-zapper/master/screenshot_without_header.png" alt="Screenshot without header">
+<img src="https://raw.github.com/everycopy/flickr-yahoo-header-zapper/master/screenshot_without_header.jpg" alt="Screenshot without header">
 
 
 ## Installation
