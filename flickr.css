@@ -1,0 +1,16 @@
+/*  Custom styles for Flickr.com by James Goode (@everycopy)
+============================================================================ */
+
+#eyebrow {
+  display: none !important;
+  visibility: hidden;
+}
+
+.with-eyebrow {
+  padding-top: 49px !important;
+  background-position: left 2px !important;
+}
+
+.with-eyebrow #global-nav {
+  top: 0 !important;
+}
