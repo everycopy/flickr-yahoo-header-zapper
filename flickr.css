@@ -14,3 +14,14 @@
 .with-eyebrow #global-nav {
   top: 0 !important;
 }
+
+/* For the logged out home page */
+
+#flickr-frames li:first-child {
+  padding-top: 0px !important;
+}
+
+#home {
+  margin-top: -49px !important;
+  padding-top: 49px !important;
+}
