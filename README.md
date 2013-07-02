@@ -4,7 +4,7 @@ Yahoo recently added a network wide header to Flickr. You probably don't like it
 
 ## Installation
 
-Use it with the Stylish extension in whatever browser you choose:
+Use it with the Stylish extension in whatever browser you want:
 
 * Get the [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe) extension.
 * Get the [Firefox](https://addons.mozilla.org/fr/firefox/addon/stylish/) addon.
