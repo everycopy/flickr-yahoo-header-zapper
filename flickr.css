@@ -23,5 +23,5 @@
 
 #home {
   margin-top: -49px !important;
-  padding-top: 49px !important;
+  border-top: 49px solid black;
 }
