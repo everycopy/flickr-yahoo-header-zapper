@@ -18,7 +18,19 @@
 .with-eyebrow .subnav-refresh {
   margin-top: 0 !important;
 }
+    
+/* For announcement banners */
 
+body.has-pro-refresh-banner.with-eyebrow #global-nav,
+body.has-banner.has-banner-size-2.with-eyebrow #global-nav {
+  top: 78px !important;
+}
+
+body.has-free-refresh-banner.with-eyebrow #global-nav,
+body.has-banner.with-eyebrow #global-nav,
+body.has-banner.has-banner-size-1.with-eyebrow #global-nav {
+  top: 48px !important;
+}
 
 /* For the logged out home page */
 
