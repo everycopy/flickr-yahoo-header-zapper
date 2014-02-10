@@ -1,5 +1,7 @@
-/*  Custom styles for Flickr.com by James Goode (@everycopy)
-============================================================================ */
+/* ============================================================================ */
+/*  Custom styles for Flickr.com by James Goode (@everycopy)                    */
+/*  Portions contributed by Grant Hutchinson (@splorp)                          */
+/* ============================================================================ */
 
 #eyebrow {
   display: none !important;
@@ -7,26 +9,39 @@
 }
 
 .with-eyebrow {
-  padding-top: 49px !important;
-  background-position: left 2px !important;
+  background-position: left 2px !important;  
 }
-
-.with-eyebrow #global-nav {
+    
+body.with-eyebrow #global-nav {
   top: 0 !important;
 }
 
-.with-eyebrow .subnav-refresh {
-  margin-top: 0 !important;
+body.with-eyebrow #main {
+  top: -22px !important;
 }
 
+body.has-banner.with-eyebrow #global-nav {
+  top: 49px !important;
+}
+
+body.has-banner.with-eyebrow #main {
+  top: -22px !important;
+}
+
+body.has-banner.with-eyebrow.header-underlap #main {
+  top: -43px !important;
+}
+
+body.has-banner.with-eyebrow.photostream #main {
+  top: -43px !important;
+}
 
 /* For the logged out home page */
 
-#flickr-frames li:first-child {
-  padding-top: 0px !important;
+body.with-eyebrow.signed-out #global-nav {
+	top: 0;
 }
 
-#home {
-  margin-top: -49px !important;
-  border-top: 49px solid black;
+body.with-eyebrow.signed-out #main {
+	top: -22px;
 }
